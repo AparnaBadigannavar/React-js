@@ -1,0 +1,40 @@
+
+
+*{
+    padding: 0;
+     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: bolder;
+   box-sizing: border-box;
+ }
+
+ .holder{
+     width: 100vw;
+     height: 100vh;
+     background-color: lightgray;
+    display: flex;
+    justify-content: space-evenly;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ .btn-block{
+     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ button{
+    width: 30%;
+    padding: 10px 20px;
+    outline: none;
+     border: none;
+     background-color: rgba(184, 135, 11, 0.402);
+     color: white;
+     border-radius: 10px;
+     transition: all 0.4s;
+ }
+
+ button:hover{
+     background-color: darkgoldenrod;
+ }
